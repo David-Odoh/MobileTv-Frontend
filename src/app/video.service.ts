@@ -12,7 +12,7 @@ import { Router } from '@angular/router';
 
 @Injectable()
 export class VideoService {
-  BASE_URL = 'http://mobiletvbackend2.azurewebsites.net/api';
+  BASE_URL = 'https://mobiletvbackend2.azurewebsites.net/api';
 
   private videoStoreOBS = [];
 

@@ -8,7 +8,7 @@ import { HttpClient } from '@angular/common/http';
 @Injectable()
 export class AuthService {
 
-  BASE_URL = 'http://mobiletvbackend2.azurewebsites.net/auth';
+  BASE_URL = 'https://mobiletvbackend2.azurewebsites.net/auth';
   NAME_KEY = 'name';
   TOKEN_KEY = 'token';
 
