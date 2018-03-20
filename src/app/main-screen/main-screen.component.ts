@@ -26,7 +26,7 @@ export class MainScreenComponent implements OnInit {
     console.log(this.videoSources.length);
 
     // this.videoSrc = this.videoSources[this.count].videoUrl;
-    this.videoSrc = '../assets/videos/WP2.mp4';
+    this.videoSrc = 'assets/videos/WP2.mp4';
 
     this.videoplayer.nativeElement.load();
 
