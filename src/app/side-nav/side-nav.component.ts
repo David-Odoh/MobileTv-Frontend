@@ -12,7 +12,7 @@ export class SideNavComponent implements OnInit {
   @ViewChild(MatMenuTrigger) trigger: MatMenuTrigger;
 
 
-  constructor(private auth: AuthService) { }
+  constructor(public auth: AuthService) { }
 
   ngOnInit() {
   }

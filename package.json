@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "build": "ng build --prod --aot false",
+    "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -30,12 +30,12 @@
     "jquery": "^3.3.1",
     "rxjs": "^5.5.6",
     "zone.js": "^0.8.19",
-    "@angular/cli": "1.6.8",
+    "@angular/cli": "1.7.3",
     "@angular/compiler-cli": "^5.2.0",
     "typescript": "~2.5.3"
   },
   "devDependencies": {
-    "@angular/cli": "1.6.8",
+    "@angular/cli": "1.7.3",
     "@angular/compiler-cli": "^5.2.0",
     "@angular/language-service": "^5.2.0",
     "@types/jasmine": "~2.8.3",

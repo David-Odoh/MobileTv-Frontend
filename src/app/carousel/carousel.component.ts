@@ -15,7 +15,7 @@ export class CarouselComponent implements OnInit {
   // public carouselTileItems = Array<any>;
   public carouselTile: NguCarousel;
 
-  constructor(private carousel: NguCarouselService, private productService: ProductService) {  }
+  constructor(public carousel: NguCarouselService, public productService: ProductService) {  }
 
   ngOnInit() {
      this.productService.getProducts('');
@@ -70,5 +70,8 @@ export class CarouselComponent implements OnInit {
 
   moveToSlide() {
     this.carousel.moveToSlide(this.carouselToken, 2, false);
+  }
+  carouselTileLoad($event) {
+    
   }
 }

@@ -10,7 +10,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 export class VideosComponent implements OnInit {
 
   videos;
-  constructor(private videoservice: VideoService, private route: ActivatedRoute) { }
+  constructor(public videoservice: VideoService, public route: ActivatedRoute) { }
 
   video = {
     id: '',

@@ -14,7 +14,7 @@ export class MainScreenComponent implements OnInit {
   videoSources = [];
   count;
 
-  constructor(private videoservice: VideoService) { }
+  constructor(public videoservice: VideoService) { }
 
   async ngOnInit() {
     this.count = 0;

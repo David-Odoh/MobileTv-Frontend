@@ -15,7 +15,7 @@ export class ManageVideosComponent implements OnInit {
   firstFormGroup: FormGroup;
   secondFormGroup: FormGroup;
 
- constructor(private route: ActivatedRoute, private videoService: VideoService, private auth: AuthService) {
+ constructor(public route: ActivatedRoute, public videoService: VideoService, public auth: AuthService) {
 
  }
 

@@ -9,7 +9,7 @@ import { FormBuilder, Validators } from '@angular/forms';
 })
 export class RegisterComponent implements OnInit {
   form;
-  constructor(private fb: FormBuilder, private auth: AuthService) {
+  constructor(public fb: FormBuilder, public auth: AuthService) {
     this.form = fb.group({
       firstName: ['', Validators.required],
       lastName: ['', Validators.required],
