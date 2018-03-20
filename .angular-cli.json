@@ -10,8 +10,8 @@
       "assets": [
         "assets",
         "favicon.ico",
-        "web.config",
-        "assets/videos"
+        "config.json",
+        ".htaccess"
       ],
       "index": "index.html",
       "main": "main.ts",
